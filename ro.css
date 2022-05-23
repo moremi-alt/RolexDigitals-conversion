@@ -1,0 +1,509 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+    font-family: 'Poppins', Helvetica, sans-serif;
+    /* color: white; */
+    
+}
+.navbar{
+    background-color: white;
+    color:  black;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+.navbar h3{
+    padding: 2rem;
+
+}
+ h3 span{
+     color: #F5CF26;
+
+}
+button{
+    background-color: #F5CF26;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    border: none;
+    /* margin: 5rem; */
+}
+
+ h2{
+     font-size: 45px
+ }
+.craft{
+    width: 50%;
+    text-align: left;
+    color: black;
+    margin: 5rem 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+    
+}
+
+.craft h2{
+    font-family: Libre Baskerville;
+    /* font-size: 33px; */
+    
+}
+.craft h2 span{
+    color: #F5CF26;
+}
+p{
+
+    font-weight: lighter;
+    font-size:  15px;
+} 
+.craft button{
+    background-color: #F5CF26;
+    color: white;
+    padding: 10px;
+    /* text-decoration: none; */
+    /* border: none; */
+    text-align: center;
+    margin-top: 1rem;
+} 
+
+.header{
+    display: flex;
+    height: 500px;
+    padding: 50px;
+}
+ .image1{
+    /* height: 20vh; */
+    width: 20vw;
+    background: #F5CF26;
+    margin-right: 120px;
+    margin-left: 40px;
+    
+
+}
+
+ .bimage{
+    background-image: url("../images/fyellow.jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+ }
+ .s-container{
+     text-align: center;
+     width: 50%;
+ }
+
+ .font{
+     display: flex;
+     height: 120px;
+     /* border: 2px solid red; */
+     background: #FFFBF1;
+
+ }
+ .awesome{
+     /* padding: 100px; */
+     margin: auto;
+     /* margin-bottom: 5rem; */
+ }
+
+ .history{
+     display: flex;
+     padding:50px;
+     /* background: #FFFDF8;
+     opacity: 0.9; */
+ }
+
+ .secondary{
+    background-image: url("../images/syellow.jpg");
+    height: 350px;
+    width: 600px;
+    background-size: contain;
+    margin-right: 10rem;
+    margin-left: 15rem;
+    border: none;
+    
+}
+
+ .secondary-2{
+    color:black;
+    text-align: left;
+    width: 50vw;
+    /* margin: 2rem; */
+    height: 50vw;
+ }
+ h1{
+     font-weight: lighter;
+     font-size: 50px;
+    font-family: 'Libre Baskerville';     
+ }
+ .secondary-2 h4{
+     color: #F5CF26;
+     text-align: left;
+     border-radius: 30px;
+     padding-right: 75px;
+     font-size: 50px;
+
+ }
+ .para{
+     padding: 0.1rem;
+     font-weight: lighter;
+     
+ }
+ .middle{
+     display:flex;
+     padding: 50px;
+ }
+
+ 
+
+
+.tap{
+    /* padding: 0.5rem; */
+    width: 50%;
+    font-size: 30px;
+    padding-left: 90px;
+    /* font-family: 'Libre Baskerville';      */
+}
+#gh{
+     height: 20vh;
+     width:  50%;
+
+}
+.segment{
+    display: flex;
+    /* text-align: center; */
+    padding-left:130px;
+
+}
+
+
+.smallbox{
+    height: 299px;
+    width: 250px;
+    box-shadow:  2px 2px 10px rgba(0, 0, 0, 0.08);;
+    /* border: 0px  grey; */
+    margin: 5px;
+    padding: 20px;
+    /* text-align: center; */
+     /* text-decoration:gold; */
+}
+
+.smallbox h2{
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.smallbox p{
+    font-size: 13px;
+    color: #515151;    
+}
+
+.smallbox img{
+       widows: 10px;
+       /* margin-left: 12.65%; */
+       margin-right: 100%;
+      size: 20px;
+}
+.Sector{
+      /* width:  1440px; */
+      height: 600px;
+      background: #FFFDF8;
+      opacity: 0.9;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      padding-left: 50px;
+      padding-right: 50px;
+      display: flex;
+
+}
+
+.imgs-container{
+    width:  50%;
+    height: 100%;
+    padding: 20px;
+}
+.imgs{
+    background-image: url("../images/closes.png");
+    background-size: cover;
+    border-radius: 50%;
+    background-color: #F5CF26;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+}
+
+.start{
+    padding: 50px;
+    width: 50%;
+       
+}
+
+.start h5{
+    font-size: 48px;
+    /* padding-left: 600px; */
+    /* margin: 6rem; */
+    font-family:Baskerville;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.start h4{
+     /* padding-left: 740px; */
+     color:   #F5CF26;
+     margin-bottom: 5px;
+     /* margin-right: 2px; */
+
+      
+}
+ .start p{
+     font-size: 18px;
+     text-align:left;
+     margin-bottom: 20px;
+ }
+
+ .some{
+    display: flex;
+    justify-content: center;
+}
+
+.side{
+    height: 450px;
+    width: 320px;
+    /* padding-top: 40px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    margin:1rem;
+    /* border: 1px solid red; */
+ }
+.side p{
+    font-size: 12px;
+    font-weight: 400;
+    /* background-color:  #FEFAE8; */
+    margin-top: 10px;
+
+
+}
+
+.side h3{
+    font-size: 20px;
+
+}
+.rand h5{
+    font-size: 20px;
+    padding: 30px;
+    padding-right: 60px; 
+
+}
+
+.thumbnail{
+    height: 70%;
+    /* width: 100%; */
+}
+
+#t-1{
+    background: url('../images/unspla1.svg');
+}
+
+#t-2{
+    background: url('../images/unspla2.svg')
+}
+
+#t-3{
+    background: url('../images/unspla3.svg')
+}
+
+.thumb-div{
+      padding: 20px;
+      background-color:  #FEFAE8;
+
+}
+.self{
+       display: flex;
+       text-align: center;
+       background:  #FFFBF1;
+       height: 190px;
+       /* padding-top: 100px;  */
+       padding: 5rem;
+       margin: 2rem;
+       /* padding-bottom: 100px;  */
+}      
+.numb{
+    margin: auto;
+    /* width: 200px; */
+    /* height: 50px; */
+}
+.numb h2{
+     color: #F5CF26;
+     font-size: 40px;
+}
+.numb p{
+      font-size: 14px;
+}
+
+ 
+.they{
+    
+    padding: 50px;
+    padding-top: 80px;
+}
+
+.Ana{
+    width: 300px;
+    height: 290px;
+    background : #FFFDF9;
+    box-shadow : 4px 4px 15px rgba(0, 0,0, 0.05);
+    margin:  2rem;
+    padding: 20px;
+
+}
+
+.avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url("../images/Ana.svg");
+}
+.avatar-s{
+      display: flex;
+      padding: 10px;
+      margin-bottom: 5px;
+}
+
+.avatar-t{
+     padding: 10px;
+     padding-top: 15px;
+}
+.ana-div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.Ana p{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color:rgba(38, 46, 53, 0.8);
+    font-weight:400;
+
+}
+
+.Ana h3{
+    color:#F5CF26;
+    font-size: 18px;
+    text-align: start;
+    
+}
+
+.Ana h3 img{
+    border-radius: 50%;
+
+}
+
+.award{
+    display: flex;  
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+    background: #FFFBF1;
+    padding: 50px;
+}
+
+.cup{
+     width: 300px;
+     padding: 5px;
+     display: flex;
+     margin: auto;
+     
+}
+
+.cup p{
+    font-size: 20px;
+    /* text-align: right; */
+    /* padding-bottom: 70px; */
+    padding-left: 10px;
+    
+    
+}
+
+.cup img{
+     /* margin-right: 100%; */
+     /* width: 20px; */
+    height: 60px;
+}
+
+.work{
+      margin: 12rem;
+      /* padding-bottom: 40px; */
+}
+
+.let{
+     margin: 1rem;
+    padding: 20px; 
+}
+.let p{
+    font-size: 18px;
+}
+.let h4{
+    padding-bottom: 15px;
+    color: #F5CF26;
+}
+
+.let h3{
+      padding-left: 10px;
+      font-size: 40px;
+}
+
+.let button{
+    width: 180px;
+    margin-top: 1rem;
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+}
+.last{
+    display: flex;
+    /* width: 1500px; */
+    background:  #FEF8EA;
+    padding: 40px;
+}
+
+.last h3{
+    margin: auto;
+}
+
+.last p{
+    /* padding-top: 40px; */
+    margin: auto;
+}
+
+.last p span{
+    padding-top:2px;
+    font-size: 10px;
+
+}
+.last ul{
+    text-align: right;
+    
+}
+
+.icons-list{
+    margin-left: auto;
+}
